@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="files\sdk">
+      <UniqueIdentifier>{af762089-d12f-4650-a80d-cf88e89dbc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\sdk\interfaces">
+      <UniqueIdentifier>{aab3edd4-ace9-478a-96f1-58b5d019ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\sdk\classes">
+      <UniqueIdentifier>{8d6b6458-9774-4aff-923c-3a7abc16ed52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\hooks">
+      <UniqueIdentifier>{46e52186-cc58-4b6e-8c49-14c7b2f6645e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\sdk\utils">
+      <UniqueIdentifier>{fd05d7dd-a034-4542-b913-1492ed60c7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\sdk\game">
+      <UniqueIdentifier>{72e1d674-0359-4bc2-92bc-1af6952e808d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\hooks\hooked">
+      <UniqueIdentifier>{aa788b53-aacc-4671-9ab2-6fd276ca7a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\features">
+      <UniqueIdentifier>{4389cdc8-baed-4240-ba12-d25c00db6d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\draw">
+      <UniqueIdentifier>{0f6f74f0-a85d-4e10-a7f7-bf6f27d44124}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\game\game.cpp">
+      <Filter>files\sdk\game</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\manager.cpp">
+      <Filter>files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooked\PainTraverse.cpp">
+      <Filter>files\hooks\hooked</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.h">
+      <Filter>files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\cutlvector.h">
+      <Filter>files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\color.h">
+      <Filter>files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\interface_manager.h">
+      <Filter>files\sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\game\game.h">
+      <Filter>files\sdk\game</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\manager.h">
+      <Filter>files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\utils\netvars.h">
+      <Filter>files\sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\entity.h">
+      <Filter>files\sdk\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CGlobalVars.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CGlowObjectManager.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CHandle.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CInput.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ClientClass.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ClientDLL.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CPhysicsSurface.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\Def.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\DT_Recv.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntity.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntityList.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientModeShared.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientNetworkable.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientRenderable.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientUnknown.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICvar.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEffects.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineTrace.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameEvent.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameMovement.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ILocalize.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterial.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialVar.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMatRenderContext.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\INetChannel.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPanel.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPrediction.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IStudioRender.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ISurface.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ITexture.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IViewRenderBeams.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelInfo.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelRender.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVRenderView.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IWeaponInfo.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IWeaponSystem.h">
+      <Filter>files\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\classes\keyvalues.h" />
+    <ClInclude Include="sdk\classes\animstate.h" />
+    <ClInclude Include="sdk\client.h" />
+  </ItemGroup>
+</Project>

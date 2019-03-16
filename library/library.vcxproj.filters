@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="library">
+      <UniqueIdentifier>{f8ae3196-571d-4d99-9e0a-15e24b42b7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\util">
+      <UniqueIdentifier>{ab0eb108-640a-4f28-bd6c-52d753607a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\input">
+      <UniqueIdentifier>{d1347303-a56d-404d-9fcf-72db47d97c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\console">
+      <UniqueIdentifier>{5ddcb43b-32f5-46e8-8bfe-cfab15d5a5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\math">
+      <UniqueIdentifier>{a820d2d7-6594-41c6-a39b-17cd3e1138ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\util\misc">
+      <UniqueIdentifier>{8b15cc7b-ff88-455a-8abd-c284d0fb8236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\util\pattern">
+      <UniqueIdentifier>{703fc039-6d76-44ec-bbb6-d351952f6032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\pe">
+      <UniqueIdentifier>{4ae8fb70-6b02-4631-86e6-c06e5c896d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\pe\module">
+      <UniqueIdentifier>{b94c7c85-fee8-4394-a5cd-428f1093f3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\util\vmt">
+      <UniqueIdentifier>{1dea0725-c254-4636-91ba-dbd70acf3587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\hash">
+      <UniqueIdentifier>{13f70242-3bfb-48fd-aaac-6093b67143d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\address">
+      <UniqueIdentifier>{de85395d-85d0-45c5-af8a-93df692cada9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\stack">
+      <UniqueIdentifier>{9b9cd9b0-279b-4531-a2e9-1caf8eb1907e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector.h">
+      <Filter>library\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>library\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrix3x4.h">
+      <Filter>library\math</Filter>
+    </ClInclude>
+    <ClInclude Include="pe\module\module.h">
+      <Filter>library\pe\module</Filter>
+    </ClInclude>
+    <ClInclude Include="pe\types.h">
+      <Filter>library\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="pe\pe.h">
+      <Filter>library\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="util\pattern\pattern.h">
+      <Filter>library\util\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="util\misc\misc.h">
+      <Filter>library\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vmt\vmt.h">
+      <Filter>library\util\vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="input\input.h">
+      <Filter>library\input</Filter>
+    </ClInclude>
+    <ClInclude Include="console\console.h">
+      <Filter>library\console</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\hash.h">
+      <Filter>library\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="address\address.h">
+      <Filter>library\address</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\stack.h">
+      <Filter>library\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="pe\image_dir.h">
+      <Filter>library\pe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input\input.cpp">
+      <Filter>library\input</Filter>
+    </ClCompile>
+    <ClCompile Include="console\console.cpp">
+      <Filter>library\console</Filter>
+    </ClCompile>
+    <ClCompile Include="math\math.cpp">
+      <Filter>library\math</Filter>
+    </ClCompile>
+    <ClCompile Include="util\misc\misc.cpp">
+      <Filter>library\util\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="pe\module\module.cpp">
+      <Filter>library\pe\module</Filter>
+    </ClCompile>
+    <ClCompile Include="util\pattern\pattern.cpp">
+      <Filter>library\util\pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
